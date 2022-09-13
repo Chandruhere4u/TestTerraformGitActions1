@@ -12,14 +12,14 @@ terraform {
   required_version = ">= 1.1.0"
 
 
-    cloud {
-      organization = "ChandruTestOrg"
+  cloud {
+    organization = "ChandruTestOrg"
 
-      workspaces {
-        name = "TestTerraformGitActions1"
-      }
+    workspaces {
+      name = "TestTerraformGitActions1"
     }
   }
+}
 
 provider "aws" {
   region = "us-east-1"
