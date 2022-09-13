@@ -16,7 +16,7 @@ terraform {
     organization = "ChandruTestOrg"
 
     workspaces {
-      name = "TestTerraformGitActions1"
+      name = "TestTerraformGitActions2"
     }
   }
 }
@@ -29,6 +29,6 @@ resource "aws_instance" "TestInsanceAssumeRole" {
   ami           = "ami-01147599e39cb5802"
   instance_type = "t2.micro"
   tags = {
-    name = "TestInstance5"
+    name = "TestInstance6"
   }
 }
