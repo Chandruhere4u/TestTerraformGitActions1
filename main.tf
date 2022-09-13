@@ -3,9 +3,9 @@ provider "aws" {
 }
 
 resource "aws_instance" "TestInsanceAssumeRole" {
-    ami = "ami-01147599e39cb5802"
-    instance_type = "t2.micro"
-    tags = {
-      name="TestInstance3"
-    }
+  ami           = "ami-01147599e39cb5802"
+  instance_type = "t2.micro"
+  tags = {
+    name = "TestInstance3"
   }
+}
