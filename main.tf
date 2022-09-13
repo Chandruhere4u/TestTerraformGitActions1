@@ -15,7 +15,7 @@ terraform {
     organization = "ChandruTestOrg"
 
     workspaces {
-      name = "TestTerraformGitActions1"
+      name = "TestTerraformGitActions2"
     }
   }
 }
