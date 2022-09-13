@@ -11,12 +11,12 @@ terraform {
   }
   required_version = ">= 1.1.0"
 
-  
+
     cloud {
       organization = "ChandruTestOrg"
 
       workspaces {
-        name = "TestTerraformGitActions2"
+        name = "TestTerraformGitActions1"
       }
     }
   }
